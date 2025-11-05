@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
-import { Shield, Network, Server, Video, Code, Lock, Wifi, Database, Cloud, Users } from 'lucide-react';
-import { SectionHeader } from '../SectionHeader';
+import { Shield, Network, Server, Video, Code, Lock, Wifi, Database, Cloud } from 'lucide-react';
 import { GlowCard } from '../GlowCard';
 import { CTABanner } from '../CTABanner';
 

@@ -14,7 +14,7 @@ interface ContactProps {
   onNavigate: (page: string) => void;
 }
 
-export function Contact({ onNavigate }: ContactProps) {
+export function Contact({ onNavigate: _onNavigate }: ContactProps) {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
